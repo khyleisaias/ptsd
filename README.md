@@ -2,14 +2,19 @@
 A new standard library for programmers that has PTSD with their projects.
 
 # Quick Start
+Install with pip:
 ```console
-$ git clone https://github.com/kernelk14/ptsd
+$ pip3 install libptsd
+```
+Or manually:
+```console
+$ git clone https://github.com/khyleisaias/ptsd
 ```
 Inside a Python file:
 ```python3
-import ptsd
+import libptsd
 
-ptsd.printf("Hello World and Universe and People with PTSD in theit projects.")
+libptsd.printf("Hello World and Universe and People with PTSD in theit projects.")
 ```
 NOTE: This only works if you are inside the `ptsd/` directory:
 ```

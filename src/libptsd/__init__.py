@@ -19,7 +19,9 @@ def fileRead(file):
 
 # String Outputs
 def printf(string):
-    print(f"{string}")
+    sys.stdout.write(f"{string}")
+def eprintf(string):
+    sys.stderr.write(f"{string}")
 
 # OS System Commands 
 def system(command):
